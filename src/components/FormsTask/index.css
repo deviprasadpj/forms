@@ -1,0 +1,102 @@
+.form-page {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ip-logo {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons {
+    width: 36px;
+    height: 36px;
+    margin: 8px;
+}
+
+.nav-right-side-container {
+    display: flex;
+}
+
+.bell-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.time-and-date {
+    display: flex;
+    justify-content: end;
+}
+
+.refernce-data {
+    text-align: center;
+}
+
+.main-content-container {
+    display: flex;
+}
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    height: 42px;
+    width: 150px;
+    background-color: #71787d;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.cards-container {
+    margin-left: 20px;
+    border: 1px solid;
+    padding: 4px;
+    width: 100%;
+}
+
+.inner-grid {
+    background: #e3bf7c;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.input-container {
+    display: inline-grid;
+    gap: 30px 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+input {
+    border: 1px solid;
+    margin-right: 2px;
+    border-radius: 4px;
+}
+
+.bottom-buttons{
+    height: 38px;
+    width: 128px;
+    background-color: #000080;
+    border-radius: 5px;
+    color: #ffffff;
+    border-width: 0px;
+    margin: 4px;
+}
